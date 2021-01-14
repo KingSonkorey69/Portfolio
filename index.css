@@ -1,0 +1,86 @@
+   html {
+       box-sizing: border-box;
+   }
+   
+   * {
+       box-sizing: border-box;
+   }
+   
+   body {
+       /* set the margin to 0px */
+       margin: 0px;
+       /* set the padding to 0px */
+       padding: 0px;
+       /* dont want to have the down scroll bar */
+       overflow-x: hidden;
+       box-sizing: border-box;
+   }
+   
+   .nav-bar {
+       position: -webkit-sticky;
+       position: fixed;
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       height: 150px;
+       background-color: #0f3057;
+       box-shadow: #e7e7de;
+   }
+   
+   .logo {
+       width: 250px;
+       height: 90%;
+   }
+   
+   .first-section {
+       display: flex;
+       flex-direction: row;
+       padding: 30px;
+       justify-content: space-around;
+       width: 100%;
+       background-color: #e7e7de;
+   }
+   
+   .content {
+       margin-top: 9%;
+       display: inherit;
+       flex-direction: column;
+       align-items: center;
+       width: 60%;
+       color: #000000;
+       font-family: "Playfair Display", serif;
+       font-size: 22px;
+       letter-spacing: 0.1rem;
+   }
+   /* the image */
+   
+   .sam {
+       margin-top: 9%;
+       height: 650px;
+       width: 40%;
+       display: inherit;
+       flex-direction: inherit;
+       justify-content: left;
+   }
+   
+   .sam>img {
+       max-width: 100%;
+   }
+   
+   .sec-section {
+       background-color: #e7e7de;
+       width: 100%;
+       height: 700px;
+   }
+   
+   .third-section {
+       background-color: #e7e7de;
+       width: 100%;
+       height: 400px;
+   }
+   
+   .footer {
+       width: 100%;
+       height: 500px;
+       background-color: #0f3057;
+   }
